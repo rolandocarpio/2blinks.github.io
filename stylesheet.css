@@ -1,0 +1,16 @@
+body{
+    background-color: lightpink;
+}
+
+h1, a:link, a:visited{
+    margin-top: 100px;
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+}
+img.center{
+    display: block;
+    margin: auto;
+    height: 300px;
+}
