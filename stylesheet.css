@@ -43,14 +43,14 @@ a:hover{
     color:violet;
 }
 
-img.smilk{
+.smilk{
     display: block;
     margin: auto;
     height: 300px;
     max-height: fit-content;
 }
 
-img.twit{
+.twit{
     margin-top: 15%;
     height: 50px;
     text-align: end;
