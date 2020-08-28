@@ -1,19 +1,56 @@
+@media only screen and (max-width: 812px) {
+    #myVideo{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 70%;
+        min-height: 70%;
+    }
+    img.center{
+        display: block;
+        margin: auto;
+        height: 200px;
+        max-height: fit-content;
+    }
+}
 body{
     margin: 0;
     padding: 0;
-    background-color: lightpink;
 }
 
-h1, a:link, a:visited{
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay{
+    position: relative;
     margin-top: 10%;
     text-align: center;
+}
+
+a:link, a:visited{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
 }
-img.center{
+
+a:hover{
+    color:violet;
+}
+
+img.smilk{
     display: block;
     margin: auto;
     height: 300px;
     max-height: fit-content;
+}
+
+img.twit{
+    margin-top: 15%;
+    height: 50px;
+    text-align: end;
 }
