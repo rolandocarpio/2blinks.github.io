@@ -29,18 +29,17 @@ body{
 
 .overlay{
     position: relative;
-    margin-top: 10%;
     text-align: center;
 }
 
 a:link, a:visited{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover{
-    color:violet;
+    color:orangered;
 }
 
 .smilk{
@@ -51,7 +50,7 @@ a:hover{
 }
 
 .twit{
-    margin-top: 15%;
+    margin-top: 42%;
     height: 50px;
     text-align: end;
 }
