@@ -8,6 +8,8 @@ function revealSurprise(memoryNumber) {
                 <h2>Bread <3</h2>
                 <video width="300" controls>
                     <source src="/img/5086.mp4" type="video/mp4">
+                    <source src="/img/5086.ogg" type="video/ogg">
+                    <source src="/img/5086.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
                 <br>
