@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Celebration</title>
+    <link rel="stylesheet" href="/css/astyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HAPPY 4 YEARS!</h1>
+        <div class="buttons">
+            <button onclick="revealSurprise(1)">For Gabby only...</button>
+        </div>
+        <div id="surprise" class="surprise">
+            <!-- Surprises will be revealed here -->
+        </div>
+    </div>
+    <audio id="background-music" loop>
+        <source src="WUSYANAME.mp3" type="audio/mp3">
+    </audio>
+    <button class="play-button" onclick="toggleMusic()">Play/Pause Music</button>
+    <script src="/js/amain.js"></script>
+</body>
+</html>
